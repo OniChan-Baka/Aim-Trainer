@@ -19,7 +19,6 @@ startButton.addEventListener("click", startGame);
 
 function startGame() {
   if (gameRunning) return;
-
   restartGame();
   gameRunning = true;
   target.style.display = "block";
